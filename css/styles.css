@@ -61,10 +61,10 @@ body {
 }
 
 #reserveModal {
-  color:black;
+  color: black;
 }
 
-#carouselButtons {
+#carousel-button {
   right: 0px;
   position: absolute;
   bottom: 0px;
