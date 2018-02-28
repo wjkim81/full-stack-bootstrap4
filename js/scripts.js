@@ -14,15 +14,30 @@ $(document).ready(function() {
     }
   });
 
-  /*
-  $("#carousel-pause").click(function() {
-    $("#mycarousel").carousel('pause');
+
+  $('#reserve-button').click(function() {
+    $('#reserveModal').modal('show');
   })
 
-  $("#carousel-play").click(function() {
-    $("#mycarousel").carousel('cycle');
+  $('#hideReserveModal1').click(function() {
+    $('#reserveModal').modal('hide');
   })
-  */
+
+  $('#hideReserveModal2').click(function() {
+    $('#reserveModal').modal('hide');
+  })
+  
+  $('#login-button').click(function() {
+    $('#loginModal').modal('show');
+  })
+
+  $('#hideLoginModal1').click(function() {
+    $('#loginModal').modal('hide');
+  })
+
+    $('#hideLoginModal2').click(function() {
+    $('#loginModal').modal('hide');
+  })
 });
 
 /*
